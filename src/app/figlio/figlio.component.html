@@ -1,0 +1,16 @@
+Elenco prodotti(figlio)
+<table>
+  <tr>
+    <td>{{prodotti[0].prodotto + ", " + prodotti[0].prezzo}}</td>
+    <td><button (click)="aggiungiCarrello(0)">aggiungi</button></td>
+  </tr>
+  <tr>
+  <td>{{prodotti[1].prodotto + ", " + prodotti[1].prezzo}}</td>
+  <td><button (click)="aggiungiCarrello(1)">aggiungi</button></td>
+</tr>
+<tr>
+<td>{{prodotti[2].prodotto + ", " + prodotti[2].prezzo}}</td>
+<td><button (click)="aggiungiCarrello(2)">aggiungi</button></td>
+</tr>
+</table>
+<button (click)="aggiungiCarrello(3)">Azzera carrello</button>
